@@ -22,7 +22,7 @@ Practice2Stack(app, "Practice2Stack",
 
     env=cdk.Environment(account='994546969703', region='eu-central-1'),
 
-    # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
+    # For more information,      see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
     )
 
 app.synth()
