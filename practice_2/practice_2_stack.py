@@ -3,7 +3,7 @@ from aws_cdk import (
     Stack,
     aws_lambda as lambda_function,
     aws_apigateway as api
-    # aws_sqs as sqs,
+    
 )
 from constructs import Construct
 
