@@ -39,5 +39,6 @@ jobs:
         working-directory: CDK-AWS
 
       - name: CDK Deploy
-        run: cdk deploy
+        run: cdk deploy --require-approval never
         working-directory: CDK-AWS
+        # args: '--require-approval never'
